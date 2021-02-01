@@ -1,4 +1,4 @@
-# doom-fire
+# doom-fire-effect
 Animação de fogo feito com HTML, Javascript e CSS. Inspirado pelo Filipe Deschamps
 
 Acessar --> https://doom-fire-effect.netlify.app/
