@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+h2{
+    color: white;
+    margin-bottom: 0.0rem;
+}
+
+table{
+    margin: 1rem;
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+td{
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    vertical-align: center;
+    font-family: monospace;
+    font-size: 14px;
+    position: relative;
+}
+
+.pixel-index{
+    font-size: 8px;
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+td.pixel{
+    width: 4px;
+    height: 4px;
+    border: 0;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button{
+    cursor: pointer;
+    margin: 5px
+}
